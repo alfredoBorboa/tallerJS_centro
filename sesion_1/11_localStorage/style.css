@@ -1,0 +1,34 @@
+.cuadro{
+  width: 100px;
+  height: 100px;
+  position:relative;
+  float: left;
+  margin-left:5px;
+}
+
+#cuadro1{
+  background-color:#004358;
+}
+
+#cuadro2{
+  background-color:#1F8A70;
+}
+
+#cuadro3{
+  background-color:#BEDB39;
+}
+
+#cuadro4{
+  background-color:#FFE11A;
+}
+
+#cuadro5{
+  background-color:#FFF;
+  border:1px solid #000;
+  float: left;
+}
+
+#boton1{
+  float: left;
+  clear: both;
+}
