@@ -16,8 +16,8 @@ var funcionIntervalo = setInterval( function(){
     top : Math.random() * window.innerHeight + "px",
     width : Math.random() * 300 + "px",
     height : Math.random() * 300 + "px"
-  });
-} , 100);
+  }, 10);
+} , 1000);
 
 $( "#boton1" ).click( function(){
   clearInterval( funcionIntervalo );

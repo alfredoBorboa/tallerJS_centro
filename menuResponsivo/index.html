@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Menú responsivo</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="stylesheet" href="main.css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<nav id="nav">
+	<a href="#nav" title="Show navigation">Show navigation</a>
+	<a href="#" title="Hide navigation">Hide navigation</a>
+	<ul class="clearfix">
+		<li><a href="?home">Home</a></li>
+		<li>
+			<a href="?blog" aria-haspopup="true"><span>Blog</span></a>
+			<ul>
+				<li><a href="?design">Design</a></li>
+				<li><a href="?html">HTML</a></li>
+				<li><a href="?css">CSS</a></li>
+				<li><a href="?javascript">JavaScript</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="?work" aria-haspopup="true"><span>Work</span></a>
+			<ul>
+				<li><a href="?webdesign">Web Design</a></li>
+				<li><a href="?typography">Typography</a></li>
+				<li><a href="?frontend">Front-End</a></li>
+			</ul>
+		</li>
+		<li><a href="?about">About</a></li>
+	</ul>
+</nav>
+
+<script src="jquery.js"></script>
+<script src="main.js"></script>
+
+</body>
+
+</html>
