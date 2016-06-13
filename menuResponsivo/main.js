@@ -1,3 +1,8 @@
+//antes de hacer nuestro menú recordemos cómo se instala un plugin de jquery.
+//En este caso utilizamos parallax.
+//Instalar parallax y hacer las secciones de nuestro site usando parallax.
+//http://pixelcog.github.io/parallax.js/
+
 		$( '#nav li:has(ul)' ).each( function(){
 			var curItem = false;
 
