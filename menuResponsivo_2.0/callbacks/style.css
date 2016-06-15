@@ -1,0 +1,15 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color:#999;
+  margin:0;
+  padding:0;
+}
+
+#cuadro{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100px;
+  height:100px;
+  background-color:#F69;
+}
